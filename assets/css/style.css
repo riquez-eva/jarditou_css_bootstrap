@@ -1,0 +1,49 @@
+header img{
+    width: 25%;
+    height: auto;
+}
+header p{
+    font-size: 30pt;
+    justify-content: right;
+}
+section{
+    block-size: auto;
+    justify-content: flex-start;
+    flex-direction: row;
+    color: white;
+    background-color:black;
+    align-items: center;
+}
+a:link{
+    color: white;
+}
+a:visited{
+    color:white;
+}
+#accueil{
+    flex-direction: row;
+}
+#tableau{
+    color: white;
+}
+#contact{
+    color: white;
+}
+img{
+    max-width:100%; max-height: 100%;
+}
+.cat{
+    max-width: max-content;
+    max-height: max-content;
+}
+aside{
+    background-color: grey;
+    flex-flow: column;
+}
+div img{
+    width: 100%;
+    height: auto;
+}
+.footer{
+    background-color: black;
+}
